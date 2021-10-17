@@ -9,13 +9,14 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 84.8vh;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +37,11 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and ( min-width: 850px ) and ( max-height: 768px )
+  {
+    .App-header{
+      max-width: 100%;
+      max-height: 100%;
+      }
+  }
