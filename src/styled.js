@@ -24,6 +24,7 @@ export const Footer = styled.footer`
   text-align: center;
   color: wheat;
   background-color: #282c34;
+  
 `
 
 export const Name = styled.p`
@@ -44,7 +45,7 @@ const rotate = keyframes`
 
 export const Rotate = styled(ReactLogo)`
   display: inline-block;
-  animation: ${rotate} 2s linear infinite;
+  animation: ${rotate} 15s linear infinite;
   padding: 2rem 1rem;
   font-size: 1.2rem;
 `;

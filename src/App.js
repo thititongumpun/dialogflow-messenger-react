@@ -6,7 +6,8 @@ Header,
 AppTitle,
 Footer,
 Name,
-Rotate } from './styled';
+Rotate
+} from './styled';
 
 function App() {
   useEffect(() => {
@@ -21,19 +22,19 @@ function App() {
   return (
     <div className="App">
       <Header>
-        <AppTitle>Chatbot ร้านข้าวต้ม</AppTitle>
+        <AppTitle>ร้านอาหาร Chatbot</AppTitle>
       </Header>
         <header className="App-header">
           <Rotate>{logo}</Rotate>
           <df-messenger
             intent="WELCOME"
-            chat-title="บอทร้านข้าวต้ม"
+            chat-title="บอทร้านอาหาร"
             agent-id="015cb695-64c9-4c09-ae05-61d2c50519a1"
             language-code="th"
           ></df-messenger>
         </header>
       <Footer>
-        <Name>Thiti Tongumpun 6307011858209</Name>  
+        <Name>Thiti Tongumpun 6307011858209 MITT Sec.3</Name>  
       </Footer>
     </div>
   );
